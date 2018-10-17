@@ -1,0 +1,121 @@
+/* pictures */
+
+.cus-manual__picture {
+  border: 1px solid #C1C1C1;
+  border-radius: 4px;
+}
+
+/* helpers */
+
+.cus-u-spacer--large {
+  margin-bottom: 4rem;
+}
+
+.cus-u-hidden--m {
+  display: none;
+}
+
+@media screen and (max-width: 767px) {
+  .cus-u-hidden--m {
+    display: block !important;
+  }
+}
+
+.TODO {
+  background-color: red;
+  color: white;
+}
+
+/* spacing */
+
+p,
+li {
+  margin-bottom: 2rem;
+  max-width: 55rem;
+}
+
+th p {
+  margin-bottom: 0;
+}
+
+.vl-alert p {
+  margin-bottom: 0;
+  max-width: auto;
+}
+
+/* tables */
+
+table {
+  margin-bottom: 2rem;
+}
+
+table.vl-data-table--tight th {
+  white-space: initial;
+}
+
+table.vl-data-table--tight th,
+table.vl-data-table--tight td {
+  padding: 0.7rem;
+}
+
+/* navigation */
+
+.cus-container--table-of-contents {
+  order: 2;
+}
+
+.cus-container--content {
+  order: 1;
+}
+
+.vl-side-navigation__toggle {
+  padding-right: 2rem;
+}
+
+.vl-side-navigation__item > ul {
+  padding-left: 1rem;
+}
+
+.vl-side-navigation__item > ul a {
+  font-size: 1.6rem;
+}
+
+/* lists */
+
+.cus-bullet-list {
+  list-style: disc;
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+}
+
+.cus-num-list {
+  list-style: decimal;
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+  padding-left: 1rem;
+  list-style-position: initial;
+}
+
+.cus-num-list li,
+.cus-bullet-list li {
+  margin: 0;
+  max-width: none;
+}
+
+.cus-num-list--breathe li {
+  margin-bottom: 2rem;
+}
+
+/* typography */
+
+a {
+  cursor: hand;
+}
+
+em {
+  color: #196BC6;
+}
+
+.vl-h6 {
+  font-weight: bold;
+}
