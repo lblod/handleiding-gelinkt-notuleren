@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+
+  <title>Handleiding Gelinkt Notuleren | Vlaanderen.be</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Preload fonts -->
+  <link rel="preload" as="font" href="https://d1l6j3bn1os9t0.cloudfront.net/3.latest/font/flanders/flanders-sans-light.woff2" type=”font/woff2” crossorigin>
+  <link rel="preload" as="font" href="https://d1l6j3bn1os9t0.cloudfront.net/3.latest/font/flanders/flanders-sans-regular.woff2" type=”font/woff2” crossorigin>
+  <link rel="preload" as="font" href="https://d1l6j3bn1os9t0.cloudfront.net/3.latest/font/flanders/flanders-sans-medium.woff2" type=”font/woff2” crossorigin>
+  <link rel="preload" as="font" href="https://d1l6j3bn1os9t0.cloudfront.net/3.latest/font/flanders/flanders-sans-bold.woff2" type=”font/woff2” crossorigin>
+
+  <link rel="preload" as="font" href="https://d1l6j3bn1os9t0.cloudfront.net/3.latest/font/flanders/flanders-serif-light.woff2" type=”font/woff2” crossorigin>
+  <link rel="preload" as="font" href="https://d1l6j3bn1os9t0.cloudfront.net/3.latest/font/flanders/flanders-serif-regular.woff2" type=”font/woff2” crossorigin>
+  <link rel="preload" as="font" href="https://d1l6j3bn1os9t0.cloudfront.net/3.latest/font/flanders/flanders-serif-medium.woff2" type=”font/woff2” crossorigin>
+  <link rel="preload" as="font" href="https://d1l6j3bn1os9t0.cloudfront.net/3.latest/font/flanders/flanders-serif-bold.woff2" type=”font/woff2” crossorigin>
+
+  <!-- Link to the Javascript -->
+  <script src="https://d1l6j3bn1os9t0.cloudfront.net/3.latest/js/vlaanderen-ui.js" defer></script>
+
+  <!-- Link to the stylesheet -->
+  <!-- This is a temporary style sheet. It should be added via NPM -->
+  <link rel="stylesheet" href="//ui.vlaanderen.be/3.latest/css/vlaanderen-ui.css" />
+
+  <!-- TODO this is custom css for testing purposes, which should be removed -->
+  <link href="css/manual.css" rel="stylesheet">
+
+  <!-- Favicon and touch icons -->
+  <link rel="icon" sizes="192x192" href="https://d1l6j3bn1os9t0.cloudfront.net/3.latest/icons/app-icon/icon-highres-precomposed.png">
+  <link rel="apple-touch-icon" href="https://d1l6j3bn1os9t0.cloudfront.net/3.latest/icons/app-icon/touch-icon-iphone-precomposed.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="https://d1l6j3bn1os9t0.cloudfront.net/3.latest/icons/app-icon/touch-icon-ipad-precomposed.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="https://d1l6j3bn1os9t0.cloudfront.net/3.latest/icons/app-icon/touch-icon-iphone-retina-precomposed.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="https://d1l6j3bn1os9t0.cloudfront.net/3.latest/icons/app-icon/touch-icon-ipad-retina-precomposed.png">
+
+  <meta name="msapplication-square70x70logo" content="https://d1l6j3bn1os9t0.cloudfront.net/3.latest/icons/app-icon/tile-small.png" />
+  <meta name="msapplication-square150x150logo" content="https://d1l6j3bn1os9t0.cloudfront.net/3.latest/icons/app-icon/tile-medium.png" />
+  <meta name="msapplication-wide310x150logo" content="https://d1l6j3bn1os9t0.cloudfront.net/3.latest/icons/app-icon/tile-wide.png" />
+  <meta name="msapplication-square310x310logo" content="https://d1l6j3bn1os9t0.cloudfront.net/3.latest/icons/app-icon/tile-large.png" />
+  <meta name="msapplication-TileColor" content="#FFE615" />
+
+</head>
+<body>
+  <div class="vl-skiplink">
+    <a href="#main">Overslaan en naar de algemene inhoud gaan</a>
+  </div>
+  <div class="block-globalheader">
+    <script type="text/javascript" src="//widgets.vlaanderen.be/widget/live/f91ec2eea9de4de399ef3e0f19db8c58"></script>
+  </div>
+  <header class="vl-content-header vl-content-header--small vl-content-header--half-image">
+    <div class="vl-content-header__wrapper">
+      <picture class="vl-content-header__bg"><img sizes="50vw" src="img/header/loket-header-1600.jpg" srcset="img/header/loket-header-320.jpg 320w, img/header/loket-header-1024.jpg 1024w, img/header/loket-header-1600.jpg 1600w" alt="" title=""></picture>
+      <div class="vl-layout vl-layout--wide">
+        <div class="vl-content-header__content">
+          <div class="vl-content-header__logo-wrapper"><a href="#" class="vl-content-header__entity-logo vl-content-header__entity-logo--lowercase"><span class="vl-content-header__entity-logo__prefix">Vlaanderen</span><span class="vl-content-header__entity-logo__title">is lokaal bestuur</span></a></div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main id="main">
+    <div class="vl-region">
+      <div class="vl-layout">
+        <div class="vl-grid">
+          <div class="vl-col--8-12 vl-col--1-1--s">
+            <h1 class="vl-title--h1">Handleiding Gelinkt Notuleren</h1>
+          </div>
+          <div class="vl-col--4-12 vl-col--1-1--s vl-u-align-right">
+            <h2 class="vl-title--h4 vl-u-spacer"><a href="https://gelinkt-notuleren.vlaanderen.be/login" target="_blank" class="vl-button vl-button--narrow vl-button--icon-after">Naar Gelinkt Notuleren <i class="vl-vi vl-vi-external vl-button__icon vl-button__icon--after"></i></a></h2>
+          </div>
+        </div>
+        <div class="vl-grid">
+          <div class="vl-col--6-12 vl-col--1-1--s">
+            <h2 class="vl-title--h4 vl-u-spacer">Waarvoor dient het Gelinkt Notuleren?</h2>
+            <ul class="vl-icon-list cus-u-spacer--large">
+              <li class="vl-icon-list__item"><i class="vl-vi vl-vi-calendar_check" aria-hidden="true"></i> Opmaken en publiceren van agenda's, notulen en besluiten voor Lokale Besturen.</li>
+            </ul>
+            <p>Staan er fouten in deze handleiding? Neem contact op met <a href="mailto:Gelinkt-Notuleren@vlaanderen.be">Gelinkt-Notuleren@vlaanderen.be</a>.</p>
+          </div>
+          <div class="vl-col--6-12 vl-col--1-1--s">
+            <div class="vl-alert vl-alert--small cus-u-spacer--large">
+              <div class="vl-alert__icon">
+                <i class="vl-vi vl-vi-document-small" aria-hidden="true"></i>
+              </div>
+              <div class="vl-alert__content">
+                <p class="vl-alert__title"><strong>Denk even na voor u print!</strong> De bomen zullen u dankbaar zijn.</p>
+                <p class="vl-alert__message">We raden printen ten zeerste af &mdash; deze website wordt up to date gehouden, een geprinte versie niet. <a href="#" onclick="window.print();return false;">Druk deze handleiding van 50 pagina's toch af</a>.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="cus-u-hidden--m">
+          <h2 class="vl-title--h4 vl-u-spacer">Inhoud van de handleiding</h2>
+          <ul class="vl-link-list">
+            <li class="vl-link-list__item">
+              <a href="#aanmelden">Aanmelden</a>
+            </li>
+            <li class="vl-link-list__item">
+              <a href="#overzicht">Documentoverzicht</a>
+            </li>
+            <li class="vl-link-list__item">
+              <a href="#notuleren">Notuleren</a>
+            </li>
+            <li class="vl-link-list__item">
+              <a href="#ondertekenenvalideren">Ondertekenen &amp; Valideren</a>
+            </li>
+            <li class="vl-link-list__item">
+              <a href="#publiceren">Publiceren</a>
+            </li>
+            <li class="vl-link-list__item">
+              <a href="#mandatenbeheer">Mandatenbeheer</a>
+            </li>
+            <li class="vl-link-list__item">
+              <a href="#draaiboek">Draaiboek installatievergadering</a>
+            </li>
+
+            <li class="vl-link-list__item">
+              <a href="#parent-voorbeeld">Parent voorbeeld</i></a>
+              <ul>
+                <li class="vl-side-navigation__item">
+                  <a href="#child-voorbeeld">Child voorbeeld</a>
+                </li>
+              </ul>
+            </li>
+            <li class="vl-link-list__item">
+              <a href="#gebruikersbeheer">Gebruikersbeheer</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="vl-u-hr"></div>
+
+    <div class="vl-region">
+      <div class="vl-layout">
+        <div class="vl-grid">
+          <div class="vl-col--4-12--m vl-col--3-12 vl-push--1-12--l cus-container--table-of-contents">
+            <nav class="vl-side-navigation js-vl-side-navigation js-vl-sticky js-vl-scrollspy"
+            data-vl-side-navigation
+            data-vl-side-navigation-scrollable
+            data-vl-scrollspy
+            data-vl-scrollspy-mobile="Componenten"
+            data-vl-sticky
+            data-vl-sticky-offset-top="10"
+            aria-label="inhoudsopgave">
+              <div class="vl-side-navigation__content">
+                <h2 class="vl-title--h4">Inhoud van de handleiding</h2>
+                <ul class="vl-side-navigation__group">
+                  <li class="vl-side-navigation__item vl-side-navigation__item--parent">
+                    <a class="vl-side-navigation__toggle" href="#aanmelden" data-vl-child="content-1">
+                      Aanmelden
+                      <i class="vl-vi vl-vi-arrow-right-fat"></i>
+                    </a>
+                  </li>
+                  <li class="vl-side-navigation__item vl-side-navigation__item--parent">
+                    <a class="vl-side-navigation__toggle" href="#overzicht" data-vl-child="content-2">
+                      Documentoverzicht
+                      <i class="vl-vi vl-vi-arrow-right-fat"></i>
+                    </a>
+                  </li>
+                  <li class="vl-side-navigation__item vl-side-navigation__item--parent">
+                    <a class="vl-side-navigation__toggle" href="#notuleren" data-vl-child="content-2">
+                      Notuleren
+                      <i class="vl-vi vl-vi-arrow-right-fat"></i>
+                    </a>
+                  </li>
+                  <li class="vl-side-navigation__item vl-side-navigation__item--parent">
+                    <a class="vl-side-navigation__toggle" href="#ondertekenenvalideren" data-vl-child="content-2">
+                      Ondertekenen &amp; Valideren
+                      <i class="vl-vi vl-vi-arrow-right-fat"></i>
+                    </a>
+                  </li>
+                  <li class="vl-side-navigation__item vl-side-navigation__item--parent">
+                    <a class="vl-side-navigation__toggle" href="#publiceren" data-vl-child="content-2">
+                      Publiceren
+                      <i class="vl-vi vl-vi-arrow-right-fat"></i>
+                    </a>
+                  </li>
+                  <li class="vl-side-navigation__item vl-side-navigation__item--parent">
+                    <a class="vl-side-navigation__toggle" href="#mandatenbeheer" data-vl-child="content-2">
+                      Mandatenbeheer
+                      <i class="vl-vi vl-vi-arrow-right-fat"></i>
+                    </a>
+                  </li>
+                  <li class="vl-side-navigation__item vl-side-navigation__item--parent">
+                    <a class="vl-side-navigation__toggle" href="#draaiboek" data-vl-child="content-2">
+                      Draaiboek installatievergadering
+                      <i class="vl-vi vl-vi-arrow-right-fat"></i>
+                    </a>
+                  </li>
+
+                  <li class="vl-side-navigation__item vl-side-navigation__item--parent">
+                    <a class="vl-side-navigation__toggle" href="#parent-voorbeeld" data-vl-child="content-6">
+                      Parent voorbeeld
+                      <i class="vl-vi vl-vi-arrow-right-fat"></i>
+                    </a>
+                    <ul>
+                      <li class="vl-side-navigation__item">
+                        <a href="#child-voorbeeld" data-vl-parent="content-6">Child voorbeeld</a>
+                      </li>
+                    </ul>
+                  </li>
+
+                  <li class="vl-side-navigation__item vl-side-navigation__item--parent">
+                    <a class="vl-side-navigation__toggle" href="#gebruikersbeheer" data-vl-child="content-9">
+                      Gebruikersbeheer
+                      <i class="vl-vi vl-vi-arrow-right-fat"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+          </div>
+
+          <div class="vl-col--7-12 vl-col--8-12--m vl-col--8-12--l vl-col--1-1--s cus-container--content">
+            <!-- --------------------------------- Aanmelden -------------------------------------------------->
+            <section id="aanmelden" class="vl-region">
+              <h2 class="vl-title--h2">Aanmelden</h2>
+              <p>Om toegang te krijgen tot het loket lokale besturen, moet u als gebruiker gekend zijn in de gebruikersbeheer lokale besturen. De <strong>lokale beheerder</strong> die in elk bestuur aanwezig is kan u hier toegang tot geven. Meestal is dit de secretaris/algemeen directeur, griffier of iemand die door de organisatie werd aangeduid. U gaat dus best bij hen ten rade als u niet weet wie uw lokale beheerder is. <a href="#gebruikersbeheer">Meer informatie over gebruikersbeheer</a>.</p>
+
+              <p>Surf naar <a href="https://loket.lokaalbestuur.vlaanderen.be/login" target="_blank">https://loket.lokaalbestuur.vlaanderen.be/login</a> om veilig naar de applicatie te surfen.</p>
+
+              <article id="aanmelden-browser">
+                <h3 class="vl-title--h3">Browser: Chrome, Firefox of Safari</h3>
+                <p>Om optimaal gebruik te maken van de applicatie, gebruikt u best <a href="https://www.google.com/chrome/" target="_blank">Chrome</a>, <a href="https://www.mozilla.org/nl/firefox/new/" target="_blank">Firefox</a> of Safari (Mac).</p>
+                <!-- TODO IE? -->
+                <p>Het kan echter dat bepaalde functionaliteiten niet (volledig) werken zoals het hoort. Mocht u dit opmerken, kunt u ons dit altijd laten weten via <a href="mailto:Gelinkt-Notuleren@vlaanderen.be">Gelinkt-Notuleren@vlaanderen.be</a>.</p>
+              </article>
+
+              <h3 class="vl-title--h3">Voorpagina</h3>
+              <p>Aanmelden verloopt via het gekende gebruikersbeheer Vlaanderen. Klik op de blauwe knop "meld u aan" om verder te gaan.</p>
+              <img class="cus-manual__picture cus-u-spacer--large" src="img/login/login-voorpagina.png">
+
+              <h3 class="vl-title--h3">Pop-up</h3>
+              <p>Vervolgens verschijnt er een popup, die u enkele veilige opties voorstelt om u mee aan te melden. Verschijnt de popup niet? <strong>Zorg dat de instellingen van uw browser goed staan.</strong></p>
+              <ul class="cus-bullet-list">
+                <li>
+                  <h4 class="vl-title--h4">Firefox</h4>
+                  <p>Bezoek deze link <a href="https://support.mozilla.org/nl/kb/instellingen-pop-upblokkering-uitzonderingen-probleemoplossing" target="=_blank">https://support.mozilla.org/nl/kb/instellingen-pop-upblokkering-uitzonderingen-probleemoplossing</a> en kies <strong>Pop-upblokkeringsinstellingen</strong>.
+                </li>
+                <li>
+                  <h4 class="vl-title--h4">Chrome</h4>
+                  <p>Bezoek deze link <a href="https://support.google.com/chrome/answer/95472?co=GENIE.Platform%3DDesktop&hl=nl" target="=_blank">https://support.google.com/chrome/answer/95472?co=GENIE.Platform%3DDesktop&hl=nl</a> en zoek naar <strong>Pop-ups van een specifieke site blokkeren of toestaan</strong>. Klik daarna op <strong>Pop-ups van een bepaalde site toestaan</strong>.
+                </li>
+                <li>
+                  <h4 class="vl-title--h4">Safari</h4>
+                  <p>in de zoekbalk van je browser zal er bovenaan rechts een waarschuwing verschijnen. Klik er op en sta de popup toe.
+                </li>
+                <li>
+                  <h4 class="vl-title--h4">Internet Explorer</h4>
+                  <p>Bezoek <a href="https://support.microsoft.com/nl-be/help/17479/windows-internet-explorer-11-change-security-privacy-settings" target="_blank">https://support.microsoft.com/nl-be/help/17479/windows-internet-explorer-11-change-security-privacy-settings</a> en kies <strong>Pop-upblokkering</strong>.
+                </li>
+                <li>
+                  <h4 class="vl-title--h4">Edge</h4>
+                  <p>Bezoek <a href="https://support.microsoft.com/nl-be/help/4026392/windows-block-pop-ups-in-microsoft-edge" target="_blank">https://support.microsoft.com/nl-be/help/4026392/windows-block-pop-ups-in-microsoft-edge</a>.
+                </li>
+              </ul>
+              <!-- TODO: add most common popup settings -->
+              <div class="vl-grid">
+                <div class="vl-col--6-12 vl-col--1-1--s">
+<p class="TODO">TODO: make right picture for gelinkt-notuleren</p>
+                  <img class="cus-manual__picture cus-u-spacer--large" src="img/login/login-popup.png">
+                </div>
+                <div class="vl-col--6-12 vl-col--1-1--s">
+<p class="TODO">TODO: make right picture for gelinkt-notuleren</p>
+                  <img class="cus-manual__picture cus-u-spacer--large" src="img/login/login-keuzes.png">
+                </div>
+              </div>
+
+              <h3 class="vl-title--h3">Probleem</h3>
+              <p>Indien u toegang wil aanvragen tot het loket, neem contact op met uw lokale beheerder. Indien er zich een probleem voordoet, bekijk de mogelijke problemen en hun oplossingen op <a href="https://overheid.vlaanderen.be/ict/ict-diensten/gebruikersbeheer" target="_blank">gebruikersbeheer Vlaanderen</a>. Vindt u daar het antwoord niet, neem contact op met 1700.</p>
+            </section>
+
+            <div class="vl-u-hr"></div>
+
+            <!-- --------------------------------- Overzicht ------------------------------------------------------------------>
+            <section id="overzicht" class="vl-region">
+              <h2 class="vl-title--h2">Documentoverzicht</h2>
+              <p>Eens u aangemeld bent, krijgt u een overzicht van al de onderdelen waar u toegang tot heeft in het loket. Klik op de blauwe knoppen in een van de kaartjes, of navigeer via de linkerzijbalk naar het juiste onderdeel.</p>
+              <img src="img/overzicht/overzicht-uitgezoomd.png" class="cus-manual__picture cus-u-spacer--large">
+              <p>Indien u toegang wil aanvragen tot bepaalde onderdelen van het loket, neem contact op met uw lokale beheerder Indien er zich een probleem voordoet, bekijk de mogelijke problemen en hun oplossingen op <a href="https://overheid.vlaanderen.be/ict/ict-diensten/gebruikersbeheer" target="_blank">gebruikersbeheer Vlaanderen</a>. Vindt u daar het antwoord niet, neem contact op met 1700.</p>
+
+              <h3 class="vl-title--h3">Tabel voorbeeld</h3>
+              <table class="vl-data-table vl-data-table--lined vl-data-table--zebra vl-data-table--tight">
+                <thead>
+                  <tr>
+                    <th></th>
+                    <th><p><small>Gemeente</small></p></th>
+                    <th><p><small>District</small></p></th>
+                    <th><p><small>Provincie</small></p></th>
+                    <th><p><small>OCMW</small></p></th>
+                    <th><p><small>OCMW-<br>vereniging</small></p></th>
+                    <th><p><small>AGB</small></p></th>
+                    <th><p><small>APB</small></p></th>
+                    <th><p><small>IGS</small></p></th>
+                    <th><p><small>Politie- en<br>Hulpverleningzone</small></p></th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th>Aangaan lening</th>
+                    <td></td>
+                    <td></td>
+                    <td>x</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            </section>
+
+            <div class="vl-u-hr"></div>
+
+            <!-- --------------------------------- Mandatenbeheer scenario's -------------------------------------------------->
+            <section id="parent-voorbeeld" class="vl-region">
+              <h2 class="vl-title--h2">Parent voorbeeld</h2>
+
+              <div id="mandatendatabank-theoretische-voorbeelden">
+                <!-- *** --- *** Scenario 1 *** --- *** -->
+                <div id="child-voorbeeld" class="cus-u-spacer--large">
+                  <h3 class="vl-title--h5 vl-title--alt vl-u-spacer">Child voorbeeld</h3>
+                </div>
+              </div>
+            </section>
+
+            <div class="vl-u-hr"></div>
+
+
+            <!-- --------------------------------- Gebruikersbeheer ---------------------------------------------------------->
+            <section id="gebruikersbeheer" class="vl-region">
+              <h2 class="vl-title--h2">Gebruikersbeheer</h2>
+              <p>Om toegang te krijgen tot het loket lokale besturen, moet u de nodige toegangsrechten gekregen hebben via het gebruikers- en toegangsbeheer. Dit gebeurt door de <strong>lokale beheerder</strong> die in elk bestuur aanwezig is. Meestal is dit de secretaris/algemeen directeur, griffier of iemand die door de organisatie werd aangeduid. U gaat dus best bij hen ten rade als u niet weet wie uw lokale beheerder is.</p>
+
+              <h3 class="vl-title--h3">Aanmelden en navigeren</h3>
+              <p>Om als lokale beheerder rechten toe te kennen aan gebruikers, surft u naar <a href="https://vo-gebruikersbeheer.vlaanderen.be" target="_blank">https://vo-gebruikersbeheer.vlaanderen.be</a>. Meld u aan met uw favoriete aanmeldingssysteem.</p>
+              <img src="img/gebruikersbeheer/gebruikersbeheer-0-login.png" class="cus-manual__picture cus-u-spacer--large">
+
+              <p>Kies vervolgens de juiste doelgroep, en het bestuur waar u zich voor wil aanmelden.</p>
+              <img src="img/gebruikersbeheer/gebruikersbeheer-1+2-type+bestuur.png">
+
+              <p>Klik op 'snel rechten toekennen', om te starten.</p>
+              <img src="img/gebruikersbeheer/gebruikersbeheer-4-rechten.png" class="cus-manual__picture cus-u-spacer--large">
+
+              <h3 class="vl-title--h3">Zoeken naar de juiste persoon</h3>
+              <p>U krijgt een overzicht te zien, waar u kan zoeken naar de juiste persoon.</p>
+              <img src="img/gebruikersbeheer/gebruikersbeheer-5-overzicht-personen.png" class="cus-manual__picture">
+              <img src="img/gebruikersbeheer/gebruikersbeheer-6-zoeken-b.png" class="cus-manual__picture cus-u-spacer--large">
+              <h3 class="vl-title--h3">Zoeken naar de juiste rechten</h3>
+              <p>Vervolgens kan u voor de geselecteerde persoon de juiste rechten zoeken. Zoek naar "Loket voor lokale besturen".</p>
+              <img src="img/gebruikersbeheer/gebruikersbeheer-7-overzicht-rechten.png" class="cus-manual__picture">
+<p class="TODO">TODO: make right picture for gelinkt-notuleren</p>
+              <img src="img/gebruikersbeheer/gebruikersbeheer-8-zoeken-rechten-b.png" class="cus-manual__picture cus-u-spacer--large">
+
+              <h3 class="vl-title--h3">Rechten toekennen</h3>
+              <p>Klik op "Loket voor lokale besturen" om rechten toe te kennen. Dit gebeurt op basis van <strong>context</strong> (niet meer op basis van rol zoals vroeger).</p>
+              <p>U kan een gebruiker tot bepaalde onderdelen van de applicatie toegang verlenen of ontkennen aan de hand van die contexten. Eens een gebruiker toegang heeft tot een bepaalde context, kan deze gebruiker alle acties uitvoeren voor de bijbehorende onderdelen. Een gebruiker kan rechten krijgen voor meerdere contexten.</p>
+<p class="TODO">TODO: make right picture for gelinkt-notuleren</p>
+              <img src="img/gebruikersbeheer/gebruikersbeheer-10-uitgeklapt.png" class="cus-manual__picture cus-u-spacer--large">
+
+              <p>Er zijn <strong>3 contexten</strong>, voor <strong>4 onderdelen</strong> van de applicatie:
+                <ul class="vl-icon-list">
+                  <li class="vl-icon-list__item"><i class="vl-vi vl-vi-calendar_check" aria-hidden="true"></i>Context Gebruiker Mijn Toezicht: recht op onderdeel <a href="#toezicht">toezicht</a>.</li>
+                  <li class="vl-icon-list__item"><i class="vl-vi vl-vi-calendar_check" aria-hidden="true"></i>Context Gebruiker BBC DR: recht op onderdeel <a href="#bbcdr">BBC-DR</a>.</li>
+                  <li class="vl-icon-list__item"><i class="vl-vi vl-vi-calendar_check" aria-hidden="true"></i>Context Gebruiker Mandatendatabank: recht op onderdeelen <strong><a href="#mandatenbeheer">mandatenbeheer</a></strong><!-- en <strong><a href="#administratievegegevens">administratieve gegevens</a>--></strong>.</li>
+                </ul>
+              </p>
+<p class="TODO">TODO: make right picture for gelinkt-notuleren</p>
+              <img src="img/gebruikersbeheer/gebruikersbeheer-11-0-contexten.png" class="cus-manual__picture">
+              <div class="vl-grid">
+                <div class="vl-col--6-12 vl-col--1-1--s">
+<p class="TODO">TODO: make right picture for gelinkt-notuleren</p>
+                  <img src="img/gebruikersbeheer/gebruikersbeheer-11-1-contexten-b.png" class="cus-manual__picture">
+                </div>
+                <div class="vl-col--6-12 vl-col--1-1--s">
+<p class="TODO">TODO: make right picture for gelinkt-notuleren</p>
+                  <img src="img/gebruikersbeheer/gebruikersbeheer-11-2-contexten-b.png" class="cus-manual__picture cus-u-spacer--large">
+                </div>
+              </div>
+              <p>Geef een reden op om het recht toe te kennen.</p>
+<p class="TODO">TODO: make right picture for gelinkt-notuleren</p>
+              <img src="img/gebruikersbeheer/gebruikersbeheer-12-reden.png" class="cus-manual__picture cus-u-spacer--large">
+
+              <h3 class="vl-title--h3">Voltooien</h3>
+              <p>U wordt gevraagd om het toekennen van rechten te bevestigen, waarna een boodschap verschijnt indien het proces met succes voltooid werd.</p>
+<p class="TODO">TODO: make right picture for gelinkt-notuleren</p>
+              <img src="img/gebruikersbeheer/gebruikersbeheer-13-confirm.png" class="cus-manual__picture">
+              <img src="img/gebruikersbeheer/gebruikersbeheer-14-success.png" class="cus-manual__picture cus-u-spacer--large">
+
+              <h3 class="vl-title--h3">Probleem</h3>
+              <p>Indien er zich een probleem voordoet, neem contact op met het <a href="https://overheid.vlaanderen.be/ict/ict-diensten/gebruikersbeheer" target="_blank">gebruikersbeheer Vlaanderen</a>.</p>
+            </section>
+
+            <div class="vl-u-hr vl-u-spacer"></div>
+
+            <p>Staan er fouten in deze handleiding? Neem contact op met <a href="mailto:Gelinkt-Notuleren@vlaanderen.be">Gelinkt-Notuleren@vlaanderen.be</a>.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <script type="text/javascript" src="//widgets.vlaanderen.be/widget/live/2833ae2aacff426e9445a336140d7420"></script>
+  </footer>
+
+  <script src="https://ui.vlaanderen.be/3.latest/js/vlaanderen-ui.js"></script>
+</body>
+</html>
+
