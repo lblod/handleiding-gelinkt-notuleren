@@ -2,11 +2,15 @@
 
 ## Onderdelen van deze handleiding
 
+- Aanmelden
+- Documentoverzicht
 - Notuleren
 - Ondertekenen &amp; Valideren
-- Mandatenbeheer
 - Publiceren
+- Mandatenbeheer
 - Draaiboek installatievergadering
+- Gebruikersbeheer
+
 
 ## Webuniversum
 
