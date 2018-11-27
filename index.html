@@ -23,8 +23,8 @@
 
   <!-- Link to the stylesheet -->
   <!-- This is a temporary style sheet. It should be added via NPM -->
-  <!-- <link rel="stylesheet" href="//ui.vlaanderen.be/3.latest/css/vlaanderen-ui.css" /> -->
   <link rel="stylesheet" href="//ui.vlaanderen.be/3.latest/css/vlaanderen-ui.css" />
+  <!-- <link rel="stylesheet" href="http://ui.vlaanderen.be/3.latest/css/vlaanderen-ui.css" /> -->
 
   <!-- TODO this is custom css for testing purposes, which should be removed -->
   <link href="css/manual.css" rel="stylesheet">
@@ -80,7 +80,7 @@
               <li class="vl-icon-list__item"><i class="vl-vi vl-vi-calendar_check" aria-hidden="true"></i> Automatisch aanvullen van de mandatendatabank bij het publiceren van uw notulen.</li>
               <li class="vl-icon-list__item"><i class="vl-vi vl-vi-calendar_check" aria-hidden="true"></i> Met het juiste niveau van beveiliging documenten (publiek) ter beschikking stellen.</li>
             </ul>
-            <p>Staan er fouten in deze handleiding? Neem contact op met <a href="mailto:Gelinkt-Notuleren@vlaanderen.be">Gelinkt-Notuleren@vlaanderen.be</a>.</p>
+            <p>Staan er fouten in deze handleiding? Neem contact op met <a href="mailto:GelinktNotuleren@vlaanderen.be">GelinktNotuleren@vlaanderen.be</a>.</p>
           </div>
           <div class="vl-col--6-12 vl-col--1-1--s">
             <div class="vl-alert vl-alert--small cus-u-spacer--large">
@@ -118,16 +118,7 @@
               <a href="#mandatenbeheer">Mandatenbeheer</a>
             </li>
             <li class="vl-link-list__item">
-              <a href="#draaiboek">Draaiboek installatievergadering</a>
-            </li>
-
-            <li class="vl-link-list__item">
-              <a href="#parent-voorbeeld">Parent voorbeeld</i></a>
-              <ul>
-                <li class="vl-side-navigation__item">
-                  <a href="#child-voorbeeld">Child voorbeeld</a>
-                </li>
-              </ul>
+              <a href="#installatie">Installatievergadering</a>
             </li>
             <li class="vl-link-list__item">
               <a href="#gebruikersbeheer">Gebruikersbeheer</a>
@@ -191,22 +182,10 @@
                     </a>
                   </li>
                   <li class="vl-side-navigation__item vl-side-navigation__item--parent">
-                    <a class="vl-side-navigation__toggle" href="#draaiboek" data-vl-child="content-2">
-                      Draaiboek installatievergadering
+                    <a class="vl-side-navigation__toggle" href="#installatie" data-vl-child="content-2">
+                      Installatievergadering
                       <i class="vl-vi vl-vi-arrow-right-fat"></i>
                     </a>
-                  </li>
-
-                  <li class="vl-side-navigation__item vl-side-navigation__item--parent">
-                    <a class="vl-side-navigation__toggle" href="#parent-voorbeeld" data-vl-child="content-6">
-                      Parent voorbeeld
-                      <i class="vl-vi vl-vi-arrow-right-fat"></i>
-                    </a>
-                    <ul>
-                      <li class="vl-side-navigation__item">
-                        <a href="#child-voorbeeld" data-vl-parent="content-6">Child voorbeeld</a>
-                      </li>
-                    </ul>
                   </li>
 
                   <li class="vl-side-navigation__item vl-side-navigation__item--parent">
@@ -231,7 +210,7 @@
               <article id="aanmelden-browser">
                 <h3 class="vl-title--h3">Browser: Chrome, Firefox of Safari</h3>
                 <p>Om optimaal gebruik te maken van de applicatie, gebruikt u best <a href="https://www.google.com/chrome/" target="_blank">Chrome</a>, <a href="https://www.mozilla.org/nl/firefox/new/" target="_blank">Firefox</a> of Safari (Mac).</p>
-                <p>Het kan echter dat bepaalde functionaliteiten niet (volledig) werken zoals het hoort. Mocht u dit opmerken, kunt u ons dit altijd laten weten via <a href="mailto:Gelinkt-Notuleren@vlaanderen.be">Gelinkt-Notuleren@vlaanderen.be</a>.</p>
+                <p>Het kan echter dat bepaalde functionaliteiten niet (volledig) werken zoals het hoort. Mocht u dit opmerken, kunt u ons dit altijd laten weten via <a href="mailto:GelinktNotuleren@vlaanderen.be">GelinktNotuleren@vlaanderen.be</a>.</p>
               </article>
 
               <h3 class="vl-title--h3">Voorpagina</h3>
@@ -280,48 +259,29 @@
             <!-- --------------------------------- Overzicht ------------------------------------------------------------------>
             <section id="overzicht" class="vl-region">
               <h2 class="vl-title--h2">Documentoverzicht</h2>
-              <p>Eens u aangemeld bent, krijgt u een overzicht van alle documenten.</p>
-              <img src="img/overzicht/overzicht-uitgezoomd.png" class="cus-manual__picture cus-u-spacer--large">
+              <p>Eens u aangemeld bent, krijgt u een overzicht van alle documenten. U zal nog geen documenten te zien krijgen.</p>
+              <div class="vl-grid">
+                <div class="vl-col--12-12 vl-col--1-1--s">
+                	<p>U komt op het tabblad "ontwerpen" terecht. Daar vindt u al de notulen die in voorbereiding of in behandeling zijn.</p>
+									<img src="img/overzicht/overzicht-0-1-ontwerpen-leeg.png" class="cus-manual__picture cus-u-spacer--large">
+								</div>
+		            <div class="vl-col--6-12 vl-col--1-1--s">
+		            	<p>Eens notulen gepubliceerd en goedgekeurd zijn, komen ze in het tabblad "goedgekeurd" terecht.</p>
+									<img src="img/overzicht/overzicht-0-2-goedgekeurd-leeg.png" class="cus-manual__picture cus-u-spacer--large">
+								</div>
+		            <div class="vl-col--6-12 vl-col--1-1--s">
+		            	<p>Concepten kunnen altijd verwijderd worden, en komen in de prullenbak terecht.</p>
+									<img src="img/overzicht/overzicht-0-3-prullenbak-leeg.png" class="cus-manual__picture cus-u-spacer--large">
+								</div>
+							</div>
+              <div class="vl-grid">
+		            <div class="vl-col--12-12 vl-col--1-1--s">
+		            	<p>Eens een document wordt opgeslagen als concept, ziet u deze verschijnen in het overzicht.</p>
+									<img src="img/overzicht/overzicht-1-1-ontwerpen-concept.png" class="cus-manual__picture cus-u-spacer--large">
+								</div>
+							</div>
+
               <p>Indien u toegang wil aanvragen tot Gelinkt Notuleren, neem contact op met uw lokale beheerder Indien er zich een probleem voordoet, bekijk de mogelijke problemen en hun oplossingen op <a href="https://overheid.vlaanderen.be/ict/ict-diensten/gebruikersbeheer" target="_blank">gebruikersbeheer Vlaanderen</a>. Vindt u daar het antwoord niet, neem contact op met 1700.</p>
-
-              <h3 class="vl-title--h3">Tabel voorbeeld</h3>
-              <!-- <table class="vl-data-table vl-data-table--lined vl-data-table--zebra vl-data-table--tight">
-                <thead>
-                  <tr>
-                    <th></th>
-                    <th><p><small>Gemeente</small></p></th>
-                    <th><p><small>District</small></p></th>
-                    <th><p><small>Provincie</small></p></th>
-                    <th><p><small>OCMW</small></p></th>
-                    <th><p><small>OCMW-<br>vereniging</small></p></th>
-                    <th><p><small>AGB</small></p></th>
-                    <th><p><small>APB</small></p></th>
-                    <th><p><small>IGS</small></p></th>
-                    <th><p><small>Politie- en<br>Hulpverleningzone</small></p></th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <th>Aangaan lening</th>
-                    <td></td>
-                    <td></td>
-                    <td>x</td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                  </tr>
-                </tbody>
-              </table> -->
-            </section>
-
-            <div class="vl-u-hr"></div>
-
-            <!-- --------------------------------- Documentoverzicht -------------------------------------------------->
-            <section id="overzicht" class="vl-region">
-              <h2 class="vl-title--h2">Documentoverzicht</h2>
             </section>
 
             <div class="vl-u-hr"></div>
@@ -329,11 +289,27 @@
             <!-- --------------------------------- Notuleren -------------------------------------------------->
             <section id="notuleren" class="vl-region">
               <h2 class="vl-title--h2">Notuleren</h2>
+
+              <ul class="cus-num-list">
+              	<li>Start een nieuw document door in het overzicht op "Nieuwe zitten te klikken"</li>
+              	<li>Kies dan het sjabloon "Installatievergadering"</li>
+              	<li>Zoek de <mark>gele tekst</mark> in de template, en klik er op om met behulp van onze kaartjes de juiste informatie te selecteren.</li>
+              	<li>Zoek vervolgens de <mark  class="mark-highlight-manual">blauwe tekst</mark>, en pas de tekst hierin manueel aan.</li>
+              </ul>
+							<div class="cus-manual__picture cus-u-spacer--large">
+								<video width="100%" controls>
+								  <source src="http://www.gelinkt-notuleren.miet.be/handleiding/img/notulen-installatievergadering-voorbereiding.mp4" type="video/mp4">
+								  Your browser does not support HTML5 video.
+								</video>
+							</div>
+
+							<p>Een gedetailleerde lijst van functionaliteiten worden later in deze handleiding opgenomen.</p>
+
               <p>Notuleer uw zitting met behulp van het online tekstverwerkingsprogramma.</p>
-              <ul>
-                <li>Gebruik de de ingebouwde sjablonen om besluiten te vormen;</li>
-                <li>link naar de juiste wetgeving uit de Vlaamse codex;</li>
-                <li>notuleer technisch conform de opgelegde standaarden;</li>
+              <ul class="vl-icon-list cus-u-spacer--large">
+	              <li class="vl-icon-list__item"><i class="vl-vi vl-vi-calendar_check" aria-hidden="true"></i> Gebruik de de ingebouwde sjablonen om besluiten te vormen;</li>
+                <li class="vl-icon-list__item"><i class="vl-vi vl-vi-calendar_check" aria-hidden="true"></i> link naar de juiste wetgeving uit de Vlaamse codex;</li>
+                <li class="vl-icon-list__item"><i class="vl-vi vl-vi-calendar_check" aria-hidden="true"></i> notuleer technisch conform de opgelegde standaarden;</li>
               </ul>
             </section>
 
@@ -343,22 +319,33 @@
             <section id="publiceren" class="vl-region">
               <h2 class="vl-title--h2">Publiceren</h2>
 
-	            <div class="vl-alert vl-alert--small cus-u-spacer--large">
-	              <div class="vl-alert__icon">
-	                <i class="vl-vi vl-vi-document-small" aria-hidden="true"></i>
-	              </div>
-	              <div class="vl-alert__content">
-	                <p class="vl-alert__title">Deze functionaliteit is beschikbaar vanaf december.</p>
-	                <p class="vl-alert__message">Momenteel kan u de notulen van de installatievergadering voorbereiden, maar nog niet publiceren en ondertekenen. Vanaf 10 december kan u de agenda publiceren.</p>
-	              </div>
-	            </div>
-
 	            <h3 class="vl-title--h3">Hoe gaat het in zijn werk?</h3>
+	            <h4 class="vl-title--h4">Publiceren</h4>
+	            <p>U kan uw agenda, besluitenlijst en notulen publiceren. Er wordt telkens een voorbeeld getoond van wat u exact gaat publiceren. U beslist zelf wanneer dat gebeurt, maar hou rekening met de termijnen.</p>
+	            <p>Hieronder een voorbeeld van publicatie voor uw agenda.</p>
+
+							<div class="cus-manual__picture cus-u-spacer--large">
+								<video width="100%" controls>
+								  <source src="img/publiceer.mp4" type="video/mp4">
+								  Your browser does not support HTML5 video.
+								</video>
+							</div>
+
+	            <h4 class="vl-title--h4">Publicatie bekijken</h4>
+	            <p>De publicaties van de notulen komen vanaf januari terecht op <a href="https://publicatie.gelinkt-notuleren.vlaanderen.be" target="_blank">https://publicatie.gelinkt-notuleren.vlaanderen.be</a>. Dit is hoe de publicatie van een agenda er uit ziet:</p>
+
+							<div class="cus-manual__picture cus-u-spacer--large">
+								<video width="100%" controls>
+								  <source src="img/bekijk.mp4" type="video/mp4">
+								  Your browser does not support HTML5 video.
+								</video>
+							</div>
+
               <p>Documenten worden met het juiste niveau van beveiliging online ter beschikking gesteld.</p>
-              <ul>
-                <li>Stel essentiële informatie ter beschikking voor de leden van uw bestuur;</li>
-                <li>breng toezichthoudende overheden op de hoogte en voldoe aan de publicatieplicht met de druk van een knop;</li>
-                <li>geef burgers eenvoudig toegang tot publieke informatie.</li>
+              <ul class="vl-icon-list cus-u-spacer--large">
+	              <li class="vl-icon-list__item"><i class="vl-vi vl-vi-calendar_check" aria-hidden="true"></i> Stel essentiële informatie ter beschikking voor de leden van uw bestuur;</li>
+                <li class="vl-icon-list__item"><i class="vl-vi vl-vi-calendar_check" aria-hidden="true"></i> breng toezichthoudende overheden op de hoogte en voldoe aan de publicatieplicht met de druk van een knop;</li>
+                <li class="vl-icon-list__item"><i class="vl-vi vl-vi-calendar_check" aria-hidden="true"></i> geef burgers eenvoudig toegang tot publieke informatie.</li>
               </ul>
             </section>
 
@@ -374,7 +361,7 @@
 	              </div>
 	              <div class="vl-alert__content">
 	                <p class="vl-alert__title">Deze functionaliteit is beschikbaar vanaf januari.</p>
-	                <p class="vl-alert__message">Momenteel kan u de notulen van de installatievergadering voorbereiden, maar nog niet publiceren en ondertekenen.</p>
+	                <p class="vl-alert__message">Momenteel kan u de notulen voorbereiden, maar nog niet publiceren en ondertekenen.</p>
 	              </div>
 	            </div>
 
@@ -395,65 +382,52 @@
             <!-- --------------------------------- Mandatenbeheer -------------------------------------------------->
             <section id="mandatenbeheer" class="vl-region">
               <h2 class="vl-title--h2">Mandatenbeheer</h2>
-              <p>Vul automatisch de mandatendatabank aan bij het publiceren van uw notulen.</p>
-              <ul>
-                <li>De tekstverwerker herkent automatisch de juiste mandatarissen in uw besluiten;</li>
-                <li>maak gebruik van sjablonen voor het wijzigen van mandaten;</li>
-                <li>wijzigingen in mandaten worden bij publicatie automatisch up-to-date gebracht in de mandatendatabank.</li>
+
+	            <div class="vl-alert vl-alert--small cus-u-spacer--large">
+	              <div class="vl-alert__icon">
+	                <i class="vl-vi vl-vi-document-small" aria-hidden="true"></i>
+	              </div>
+	              <div class="vl-alert__content">
+	                <p class="vl-alert__title">Deze functionaliteit is beschikbaar vanaf januari.</p>
+	                <p class="vl-alert__message">Momenteel kan u de notulen voorbereiden, maar nog niet publiceren en ondertekenen.</p>
+	              </div>
+	            </div>
+
+              <p>Vul automatisch de mandatendatabank aan bij het publiceren van uw notulen. De mandaten worden gepubliceerd op <a href="https://loket.lokaalbestuur.vlaanderen.be/" target="_blank">https://loket.lokaalbestuur.vlaanderen.be</a> voor de Vlaamse Overheid en aangevuld op <a href="http://mandaten.lokaalbestuur.vlaanderen.be" target="_blank">http://mandaten.lokaalbestuur.vlaanderen.be</a> voor de burgers.</p>
+              <div class="vl-grid">
+              	<div class="vl-col--6-12">
+              		<p>Website mandatenbeheer</p>
+									<img src="img/mandatenbeheer/mb-0-overzicht.png" class="cus-manual__picture cus-u-spacer--large">
+              	</div>
+              	<div class="vl-col--6-12">
+              		<p>Website mandatendatabank</p>
+									<img src="img/mandatenbeheer/md-0-landing.png" class="cus-manual__picture cus-u-spacer--large">
+								</div>
+              </div>
+              <ul class="vl-icon-list cus-u-spacer--large">
+                <li class="vl-icon-list__item"><i class="vl-vi vl-vi-calendar_check" aria-hidden="true"></i> De tekstverwerker herkent automatisch de juiste mandatarissen in uw besluiten;</li>
+                <li class="vl-icon-list__item"><i class="vl-vi vl-vi-calendar_check" aria-hidden="true"></i> maak gebruik van sjablonen voor het wijzigen van mandaten;</li>
+                <li class="vl-icon-list__item"><i class="vl-vi vl-vi-calendar_check" aria-hidden="true"></i> wijzigingen in mandaten worden bij publicatie automatisch up-to-date gebracht in de mandatendatabank.</li>
               </ul>
             </section>
 
             <div class="vl-u-hr"></div>
 
 
-            <!-- --------------------------------- Draaiboek installatievergadering -------------------------------------------------->
-            <section id="draaiboek" class="vl-region">
-              <h2 class="vl-title--h2">Draaiboek installatievergadering</h2>
+            <!-- --------------------------------- Installatievergadering -------------------------------------------------->
+            <section id="installatie" class="vl-region">
+              <h2 class="vl-title--h2">Installatievergadering</h2>
+              <div id="installatievergadering-vvsg cus-u-spacer--large">
+                <h3 class="vl-title--h3">Draaiboek installatievergadering</h3>
+                <p>VVSG heeft voor de installatievergadering een draaiboek gemaakt. Op deze link vindt u de laatste versie van het draaiboek terug, samen met andere informatie: <a href="http://www.vvsg.be/verkiezingen/Pages/default.aspx" target="_blank">http://www.vvsg.be/verkiezingen/Pages/default.aspx</a>.</p>
+                <p>Dit draaiboek zal u helpen om de installatie vlot te laten verlopen.</p>
+                <p>Ook voor de politieraad is er meer informatie beschikbaar: <a href="http://www.vvsg.be/veiligheid/lokalepolitie/verkiezingen/Pages/default.aspx" target="_blank">http://www.vvsg.be/veiligheid/lokalepolitie/verkiezingen/Pages/default.aspx</a>.</p>
+              </div>
               <div id="installatievergadering-takenlijst">
                 <h3 class="vl-title--h3">Takenlijsten installatievergadering</h3>
+                <p>Eens u de template "Installatievergadering" invoegt, verschijnt er een takenlijst aan de linkerkant die u helpt voor en tijdens de zitting. Deze takenlijst is ook gebaseerd op het draaiboek van de VVSG.</p>
 
-                <div id="installatievergadering-takenlijst-1">
-                  <h4 class="vl-title--h4">Te voltooien ten minste 14 dagen vóór de installatievergadering</h4>
-                  <p></p>
-                </div>
-                <div id="installatievergadering-takenlijst-1">
-                  <h4 class="vl-title--h4">Te voltooien ten minste 13 dagen vóór de installatievergadering</h4>
-                  <p></p>
-                </div>
-                <div id="installatievergadering-takenlijst-1">
-                  <h4 class="vl-title--h4">Te voltooien ten minste 11 dagen vóór de installatievergadering</h4>
-                  <p></p>
-                </div>
-                <div id="installatievergadering-takenlijst-1">
-                  <h4 class="vl-title--h4">Te voltooien ten minste 8 dagen vóór de installatievergadering</h4>
-                  <p></p>
-                </div>
-                <div id="installatievergadering-takenlijst-1">
-                  <h4 class="vl-title--h4">Voorbereidende werkzaamheden installatievergadering</h4>
-                  <p></p>
-                </div>
-                <div id="installatievergadering-takenlijst-1">
-                  <h4 class="vl-title--h4">Tijdens de installatievergadering</h4>
-                  <p></p>
-                </div>
-                <div id="installatievergadering-takenlijst-1">
-                  <h4 class="vl-title--h4">Na de installatievergadering</h4>
-                  <p></p>
-                </div>
-            </section>
-
-            <div class="vl-u-hr"></div>
-
-
-            <!-- --------------------------------- Mandatenbeheer scenario's -------------------------------------------------->
-            <section id="parent-voorbeeld" class="vl-region">
-              <h2 class="vl-title--h2">Parent voorbeeld</h2>
-
-              <div id="mandatendatabank-theoretische-voorbeelden">
-                <!-- *** --- *** Scenario 1 *** --- *** -->
-                <div id="child-voorbeeld" class="cus-u-spacer--large">
-                  <h3 class="vl-title--h5 vl-title--alt vl-u-spacer">Child voorbeeld</h3>
-                </div>
+                <img src="img/installatie/installatie-0-0-takenlijst.png" class="cus-manual__picture cus-u-spacer--large">
               </div>
             </section>
 
@@ -482,13 +456,11 @@
               <h3 class="vl-title--h3">Zoeken naar de juiste rechten</h3>
               <p>Vervolgens kan u voor de geselecteerde persoon de juiste rechten zoeken. Zoek naar "Gelinkt Notuleren".</p>
               <img src="img/gebruikersbeheer/gebruikersbeheer-7-overzicht-rechten.png" class="cus-manual__picture">
-<p class="TODO">TODO: make right picture for gelinkt-notuleren</p>
               <img src="img/gebruikersbeheer/gebruikersbeheer-8-zoeken-rechten-b.png" class="cus-manual__picture cus-u-spacer--large">
 
               <h3 class="vl-title--h3">Rechten toekennen</h3>
               <p>Klik op "Gelinkt Notuleren" om rechten toe te kennen. Dit gebeurt op basis van <strong>context</strong> (niet meer op basis van rol zoals vroeger).</p>
               <p>U kan een gebruiker tot bepaalde onderdelen van de applicatie toegang verlenen of ontkennen aan de hand van die contexten. Eens een gebruiker toegang heeft tot een bepaalde context, kan deze gebruiker alle acties uitvoeren voor de bijbehorende onderdelen. Een gebruiker kan rechten krijgen voor meerdere contexten.</p>
-<p class="TODO">TODO: make right picture for gelinkt-notuleren</p>
               <img src="img/gebruikersbeheer/gebruikersbeheer-10-uitgeklapt.png" class="cus-manual__picture cus-u-spacer--large">
 
               <p>Er zijn <strong>3 contexten</strong>, voor <strong>4 onderdelen</strong> van de applicatie:
@@ -526,7 +498,7 @@
 
             <div class="vl-u-hr vl-u-spacer"></div>
 
-            <p>Staan er fouten in deze handleiding? Neem contact op met <a href="mailto:Gelinkt-Notuleren@vlaanderen.be">Gelinkt-Notuleren@vlaanderen.be</a>.</p>
+            <p>Staan er fouten in deze handleiding? Neem contact op met <a href="mailto:GelinktNotuleren@vlaanderen.be">GelinktNotuleren@vlaanderen.be</a>.</p>
           </div>
         </div>
       </div>

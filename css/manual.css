@@ -119,3 +119,7 @@ em {
 .vl-h6 {
   font-weight: bold;
 }
+
+mark.mark-highlight-manual {
+	background-color: #A3C4E8;
+}
