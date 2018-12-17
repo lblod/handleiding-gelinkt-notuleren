@@ -123,3 +123,7 @@ em {
 mark.mark-highlight-manual {
 	background-color: #A3C4E8;
 }
+
+.cus-text-fade {
+	opacity: 0.6;
+}

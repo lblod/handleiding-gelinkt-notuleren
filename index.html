@@ -89,7 +89,7 @@
                 <i class="vl-vi vl-vi-document-small" aria-hidden="true"></i>
               </div>
               <div class="vl-alert__content">
-                <p class="vl-alert__title"><strong>Denk even na voor u print!</strong> De bomen zullen u dankbaar zijn.</p>
+                <p class="vl-alert__title"><strong>Denk even na voor u deze handleiding print!</strong> De bomen zullen u dankbaar zijn.</p>
                 <p class="vl-alert__message">We raden printen ten zeerste af &mdash; deze website wordt up to date gehouden, een geprinte versie niet. <a href="#" onclick="window.print();return false;">Druk deze handleiding van 50 pagina's toch af</a>.</p>
               </div>
             </div>
@@ -112,6 +112,14 @@
             </li>
             <li class="vl-link-list__item">
               <a href="#notuleren">Notuleren</a>
+		          <ul class="vl-link-list">
+		            <li class="vl-link-list__item">
+              		<a href="#notuleren-printen">Hoe maak ik een PDF of een print van notulen?</a>
+              	</li>
+		            <li class="vl-link-list__item">
+              		<a href="#notuleren-synchroniseren">Gegevens tussen de installatievergadering van de gemeenteraad en de eerste zitting van de OCMW-raad synchroniseren</a>
+              	</li>
+              </ul>
             </li>
             <li class="vl-link-list__item">
               <a href="#publiceren">Publiceren</a>
@@ -157,43 +165,51 @@
                     </a>
                   </li>
                   <li class="vl-side-navigation__item vl-side-navigation__item--parent">
-                    <a class="vl-side-navigation__toggle" href="#aanmelden" data-vl-child="content-1">
+                    <a class="vl-side-navigation__toggle" href="#aanmelden" data-vl-child="content-2">
                       Aanmelden
                       <i class="vl-vi vl-vi-arrow-right-fat"></i>
                     </a>
                   </li>
                   <li class="vl-side-navigation__item vl-side-navigation__item--parent">
-                    <a class="vl-side-navigation__toggle" href="#overzicht" data-vl-child="content-2">
+                    <a class="vl-side-navigation__toggle" href="#overzicht" data-vl-child="content-3">
                       Documentoverzicht
                       <i class="vl-vi vl-vi-arrow-right-fat"></i>
                     </a>
                   </li>
                   <li class="vl-side-navigation__item vl-side-navigation__item--parent">
-                    <a class="vl-side-navigation__toggle" href="#notuleren" data-vl-child="content-2">
+                    <a class="vl-side-navigation__toggle" href="#notuleren" data-vl-child="content-4">
                       Notuleren
                       <i class="vl-vi vl-vi-arrow-right-fat"></i>
                     </a>
+                    <ul>
+		                  <li class="vl-side-navigation__item">
+		                    <a class="vl-side-navigation__toggle" href="#notuleren-synchroniseren" data-vl-parent="content-4">Gegevens tussen de installatievergadering van de gemeenteraad en de eerste zitting van de OCMW-raad synchroniseren</a>
+		                  </li>
+		                  <li class="vl-side-navigation__item">
+		                    <a class="vl-side-navigation__toggle" href="#notuleren-printen" data-vl-parent="content-4">Hoe maak ik een PDF of een print van notulen?</a>
+		                  </li>
+		                </ul>
                   </li>
                   <li class="vl-side-navigation__item vl-side-navigation__item--parent">
-                    <a class="vl-side-navigation__toggle" href="#publiceren" data-vl-child="content-2">
+                    <a class="vl-side-navigation__toggle" href="#publiceren" data-vl-child="content-5">
                       Publiceren
                       <i class="vl-vi vl-vi-arrow-right-fat"></i>
                     </a>
                   </li>
                   <li class="vl-side-navigation__item vl-side-navigation__item--parent">
-                    <a class="vl-side-navigation__toggle" href="#ondertekenenvalideren" data-vl-child="content-2">
+                    <a class="vl-side-navigation__toggle" href="#ondertekenenvalideren" data-vl-child="content-6">
                       Ondertekenen &amp; Valideren
                       <i class="vl-vi vl-vi-arrow-right-fat"></i>
                     </a>
                   </li>
                   <li class="vl-side-navigation__item vl-side-navigation__item--parent">
-                    <a class="vl-side-navigation__toggle" href="#mandatenbeheer" data-vl-child="content-2">
+                    <a class="vl-side-navigation__toggle" href="#mandatenbeheer" data-vl-child="content-7">
                       Mandatenbeheer
                       <i class="vl-vi vl-vi-arrow-right-fat"></i>
                     </a>
                   </li>
                   <li class="vl-side-navigation__item vl-side-navigation__item--parent">
-                    <a class="vl-side-navigation__toggle" href="#installatie" data-vl-child="content-2">
+                    <a class="vl-side-navigation__toggle" href="#installatie" data-vl-child="content-8">
                       Installatievergadering
                       <i class="vl-vi vl-vi-arrow-right-fat"></i>
                     </a>
@@ -334,20 +350,95 @@
 							<img src="img/notuleren/notuleren-0-3-kies-sjabloon.png" class="cus-manual__picture cus-u-spacer--large">
 
               <div class="vl-grid">
-              	<div class="vl-col--6-12">
+              	<div class="vl-col--5-12">
 									<img src="img/notuleren/notuleren-0-4-kies-sjabloon-optie.png" class="cus-manual__picture cus-u-spacer--large">
               	</div>
-              	<div class="vl-col--6-12">
-              		<p>Voorlopig is er enkel het sjabloon "Installatievergadering" beschikbaar, in de klassieke stijl. Vanaf <strong>18 december</strong> zijn er nieuwe sjablonen beschikbaar:</p>
+              	<div class="vl-col--7-12">
+              		<p>De volgende sjablonen zijn momenteel beschikbaar:</p>
               		<ul class="cus-bullet-list">
-              			<li>installatievergadering (nieuwe stijl)</li>
-              			<li>politieraad (klassieke stijl)</li>
-              			<li>politieraad (nieuwe stijl)</li>
+              			<li>installatievergadering met politieraad (klassieke stijl)
+              				<br>
+              				<span class="cus-text-fade">Dit is een sjabloon voor de gemeenteraad</span>
+              			</li>
+              			<li>installatievergadering met politieraad (nieuwe stijl)
+              				<br>
+              				<span class="cus-text-fade">Dit is een sjabloon voor de gemeenteraad</span>
+              			</li>
+              			<li>installatievergadering zonder politieraad (klassieke stijl)
+              				<br>
+              				<span class="cus-text-fade">Dit is een sjabloon voor de gemeenteraad</span>
+              			</li>
+              			<li>installatievergadering zonder politieraad (nieuwe stijl)
+              				<br>
+              				<span class="cus-text-fade">Dit is een sjabloon voor de gemeenteraad</span>
+              			</li>
               			<li>Eerste vergadering OCMW-raad (klassieke stijl)</li>
-              			<li>Eerste vergadering OCMW-raad (nieuwe stijl)</li>
               		</ul>
+              		<p>In de week van 18 december zal ook de eerste vergadering OCMW-raad in de nieuwe stijl beschikbaar zijn.</p>
               	</div>
               </div>
+
+              <br>
+              <article id="notuleren-synchroniseren">
+	              <h3 class="vl-title--h3">Gegevens tussen de installatievergadering van de gemeenteraad en de eerste zitting van de OCMW-raad synchroniseren</h3>
+	              <p>Het is mogelijk om informatie van de installatievergadering door te laten stromen naar de eerste vergadering van de OCMW-raad. U doet dit als volgt:</p>
+	              <ul class="cus-num-list">
+	              	<li>
+			          		<h4 class="vl-title--h4">Vervolledig uw notulen, en sla ze op</h4>
+			          		<p>Hierna verschijnt er een knop bovenaan rechts "Hergebruik gegevens in OCMW"</p>
+										<img src="img/installatie-ocmw/0-0-maak-document.png" class="cus-manual__picture">
+										<img src="img/installatie-ocmw/0-1-sla-op.png" class="cus-manual__picture cus-u-spacer--large">
+									</li>
+									<li>
+			          		<h4 class="vl-title--h4">Klik op de knop "Hergebruik gegevens in OCMW"</h4>
+			          		<p>Hierna verschijnt er een modal.</p>
+										<img src="img/installatie-ocmw/1-0-hergebruik-knop.png" class="cus-manual__picture cus-u-spacer--large">
+									</li>
+									<li>
+			          		<div class="vl-grid">
+			          			<div class="vl-col--6-12">
+					          		<h4 class="vl-title--h4">Klik op de knop "Hergebruik" onderaan in de modal</h4>
+					          		<p>De gegevens zijn nu klaar voor hergebruik.</p>
+					          	</div>
+			          			<div class="vl-col--6-12">
+												<img src="img/installatie-ocmw/1-1-hergebruik-modal.png" class="cus-manual__picture cus-u-spacer--large">
+											</div>
+										</div>
+									</li>
+									<li>
+			          		<h4 class="vl-title--h4">Ga terug naar het overzicht, en meld u af.</h4>
+										<img src="img/installatie-ocmw/2-0-terug-overzicht.png" class="cus-manual__picture">
+										<img src="img/installatie-ocmw/2-1-meld-af.png" class="cus-manual__picture cus-u-spacer--large">
+									</li>
+									<li>
+			          		<h4 class="vl-title--h4">Surf terug naar <a href="https://gelinkt-notuleren.vlaanderen.be/login" target="_blank">https://gelinkt-notuleren.vlaanderen.be</a> en meld u aan als OCMW-raad</h4>
+										<img src="img/installatie-ocmw/3-0-meld-aan.png" class="cus-manual__picture cus-u-spacer--large">
+									</li>
+									<li>
+			          		<div class="vl-grid">
+			          			<div class="vl-col--7-12">
+			          				<h4 class="vl-title--h4">Maak een nieuw document, en kies het sjabloon "Eerste vergadering OCMW-raad" (oude of nieuwe stijl)</h4>
+			          				<p>Kies het sjabloon "Eerste vergadering OCMW-raad" (oude of nieuwe stijl).</p>
+			          				<p>De gegevens van de installatievergadering van de gemeenteraad zijn nu beschikbaar in de editor.</p>
+			          			</div>
+			          			<div class="vl-col--5-12">
+												<img src="img/installatie-ocmw/4-0-kies-sjabloon.png" class="cus-manual__picture cus-u-spacer--large">
+			          			</div>
+			          		</div>
+									</li>
+									<li>
+			          		<div class="vl-grid">
+			          			<div class="vl-col--7-12">
+			          				<h4 class="vl-title--h4">Indien u de gegevens niet gesynchroniseerd heeft, krijgt u een foutmelding bij het laatste agendapunt van de eerste vergadering van de OCMW-raad</h4>
+			          				<p>Doorlop stap 1 tot en met 4.</p>
+			          			</div>
+			          			<div class="vl-col--5-12">
+												<img src="img/installatie-ocmw/5-foutmelding.png" class="cus-manual__picture cus-u-spacer--large">
+			          			</div>
+			          		</div>
+									</li>
+								</ul>
+							</article>
 
               <br>
 
@@ -406,7 +497,7 @@
               <p class="small">Refereer voor de installatievergadering zeker ook naar het draaiboek van de VVSG: <a href="http://www.vvsg.be/verkiezingen/Pages/default.aspx" target="_blank">http://www.vvsg.be/verkiezingen/Pages/default.aspx</a>.</p>
 
               <ul class="cus-num-list">
-              	<li>Zoek de <mark>gele tekst</mark> in de template, en klik er op om met behulp van onze kaartjes de juiste informatie te selecteren.</li>
+              	<li>Zoek de <mark>gele tekst</mark> in het sjabloon, en klik er op om met behulp van onze kaartjes de juiste informatie te selecteren.</li>
               	<li>Zoek vervolgens de <mark  class="mark-highlight-manual">blauwe tekst</mark>, en pas de tekst hierin manueel aan.</li>
               	<li>Vanaf 18 december kan u agendapunten publiceren.</li>
               </ul>
@@ -427,6 +518,79 @@
                 <li class="vl-icon-list__item"><i class="vl-vi vl-vi-calendar_check" aria-hidden="true"></i> link naar de juiste wetgeving uit de Vlaamse codex;</li>
                 <li class="vl-icon-list__item"><i class="vl-vi vl-vi-calendar_check" aria-hidden="true"></i> notuleer technisch conform de opgelegde standaarden;</li>
               </ul> -->
+
+              <article id="notuleren-printen">
+              	<h3 class="vl-title--h3">Hoe maak ik een PDF of een print van notulen?</h3>
+              	<h4 class="vl-title--h4 cus-u-spacer--large">Een PDF of print maken in Firefox</h4>
+              	<ul class="cus-num-list">
+              		<li>
+		              	<h5 class="vl-title--h5 cus-u-spacer--large">Open de notulen die u wil printen of opslaan, laat de pagina printen.</h5>
+              			<div class="vl-grid">
+              				<div class="vl-col--6-12">
+		              			<h6 class="vl-title--h6 vl-u-spacer">Optie 1: via het menu.</h6>
+		              			<p>Ga naar <strong>het dropdown menu</strong> of <strong>bestand</strong> en kies <strong>Print</strong>.</p>
+												<img src="img/print/print-firefox-file.png" style="max-width: 200px;" class="cus-manual__picture cus-u-spacer--large">
+              				</div>
+              				<div class="vl-col--6-12">
+		              			<h6 class="vl-title--h6 vl-u-spacer">Optie 2: toetsencombinatie</h6>
+		              			<p>Klik naast het witte editor vlak, zodat u niet meer aan het editeren bent. Hou vervolgens op uw toetsenbord tegelijkertijd <strong>ctrl</strong> en <strong>p</strong> in.</p>
+												<img src="img/print/print-commands.png" style="max-width: 200px;" class="cus-u-spacer--large">
+              				</div>
+              			</div>
+              		</li>
+              		<li>
+		              	<h5 class="vl-title--h5">Een PDF of een print maken.</h5>
+		              	<p class="cus-u-spacer--large">Een print of een PDF van de pagina maken verloopt via dezelfde route.</p>
+              			<div class="vl-grid">
+              				<div class="vl-col--6-12">
+		              			<h6 class="vl-title--h6 vl-u-spacer">Printen</h6>
+		              			<p>Er opent een modal. U krijgt geen voorvertoning van de print. Indien u dit wel wenst, maak eerst een PDF van de notulen.</p>
+		              			<p>Kies de juiste printer of een PDF en klik op <strong>OK</strong>.</p>
+												<img src="img/print/print-firefox.png" class="cus-manual__picture cus-u-spacer--large">
+              				</div>
+              				<div class="vl-col--6-12">
+		              			<h6 class="vl-title--h6 vl-u-spacer">Een PDF maken</h6>
+		              			<p>Kies <strong>PDF</strong> en klik op <strong>OK</strong>.</p>
+												<img src="img/print/print-firefox-change-type.png" class="cus-manual__picture cus-u-spacer--large">
+              				</div>
+              			</div>
+              		</li>
+              	</ul>
+
+              	<h4 class="vl-title--h4 cus-u-spacer--large">Een PDF of print maken in Chrome</h4>
+              	<ul class="cus-num-list">
+              		<li>
+		              	<h5 class="vl-title--h5 vl-u-spacer">Open de notulen die u wil printen of opslaan, laat de pagina printen.</h5>
+              			<div class="vl-grid">
+              				<div class="vl-col--6-12">
+		              			<h6 class="vl-title--h6 vl-u-spacer">Optie 1: via het menu.</h6>
+		              			<p>Ga naar <strong>het dropdown menu</strong> of <strong>bestand</strong> en kies <strong>Print</strong>.</p>
+												<img src="img/print/print-chrome-file.png" style="max-width: 200px;" class="cus-manual__picture cus-u-spacer--large">
+              				</div>
+              				<div class="vl-col--6-12">
+              					<h6 class="vl-title--h6 vl-u-spacer">Optie 2: toetsencombinatie</h6>
+		              			<p>Klik naast het witte editor vlak, zodat u niet meer aan het editeren bent. Hou vervolgens op uw toetsenbord tegelijkertijd <strong>ctrl</strong> en <strong>p</strong> in.</p>
+												<img src="img/print/print-commands.png" style="max-width: 200px;" class="cus-u-spacer--large">
+              				</div>
+              			</div>
+              		</li>
+              		<li>
+		              	<h5 class="vl-title--h5 vl-u-spacer">Een PDF of een print maken.</h5>
+              			<div class="vl-grid">
+              				<div class="vl-col--6-12">
+		              			<h6 class="vl-title--h6 vl-u-spacer">Printen</h6>
+		              			<p>Er opent een modal. Er verschijnt een voorvertoning van uw print. Kies de juiste printer en klik op <strong>OK</strong>.</p>
+												<img src="img/print/print-chrome.png" class="cus-manual__picture cus-u-spacer--large">
+              				</div>
+              				<div class="vl-col--6-12">
+		              			<h6 class="vl-title--h6 vl-u-spacer">Een PDF maken</h6>
+		              			<p>Kies <strong>PDF</strong> en klik op <strong>OK</strong>.</p>
+												<img src="img/print/print-chrome-change-type.png" class="cus-manual__picture cus-u-spacer--large">
+              				</div>
+              			</div>
+              		</li>
+              	</ul>
+              </article>
             </section>
 
             <div class="vl-u-hr"></div>
@@ -457,12 +621,14 @@
 								</video>
 							</div>
 
-              <p>Documenten worden met het juiste niveau van beveiliging online ter beschikking gesteld.</p>
+							<p>Voorlopig kan u enkel de agenda publiceren. Vanaf januari 2019 kan u uw besluiten, besluitenlijsten en notulen ook publiceren en ondertekenen.</p>
+
+<!--               <p>Documenten worden met het juiste niveau van beveiliging online ter beschikking gesteld.</p>
               <ul class="vl-icon-list cus-u-spacer--large">
 	              <li class="vl-icon-list__item"><i class="vl-vi vl-vi-calendar_check" aria-hidden="true"></i> Stel essentiële informatie ter beschikking voor de leden van uw bestuur;</li>
                 <li class="vl-icon-list__item"><i class="vl-vi vl-vi-calendar_check" aria-hidden="true"></i> breng toezichthoudende overheden op de hoogte en voldoe aan de publicatieplicht met de druk van een knop;</li>
                 <li class="vl-icon-list__item"><i class="vl-vi vl-vi-calendar_check" aria-hidden="true"></i> geef burgers eenvoudig toegang tot publieke informatie.</li>
-              </ul>
+              </ul> -->
             </section>
 
             <div class="vl-u-hr"></div>
@@ -476,7 +642,7 @@
 	                <i class="vl-vi vl-vi-document-small" aria-hidden="true"></i>
 	              </div>
 	              <div class="vl-alert__content">
-	                <p class="vl-alert__title">Deze functionaliteit is beschikbaar vanaf januari.</p>
+	                <p class="vl-alert__title">Deze functionaliteit is beschikbaar vanaf januari 2019.</p>
 	                <p class="vl-alert__message">Momenteel kan u de notulen voorbereiden, maar nog niet publiceren en ondertekenen.</p>
 	              </div>
 	            </div>
@@ -540,7 +706,7 @@
               </div>
               <div id="installatievergadering-takenlijst">
                 <h3 class="vl-title--h3">Takenlijsten installatievergadering</h3>
-                <p>Eens u de template "Installatievergadering" invoegt, verschijnt er een takenlijst aan de linkerkant die u helpt voor en tijdens de zitting. Deze takenlijst is gebaseerd op het draaiboek van de VVSG.</p>
+                <p>Eens u het sjabloon "Installatievergadering" invoegt, verschijnt er een takenlijst aan de linkerkant die u helpt voor en tijdens de zitting. Deze takenlijst is gebaseerd op het draaiboek van de VVSG.</p>
 
                 <img src="img/installatie/installatie-0-0-takenlijst.png" class="cus-manual__picture cus-u-spacer--large">
               </div>
