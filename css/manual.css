@@ -11,6 +11,10 @@
   margin-bottom: 4rem;
 }
 
+.cus-u-spacer--left {
+  margin-left: 1rem;
+}
+
 .cus-u-hidden--m {
   display: none;
 }
@@ -84,13 +88,13 @@ table.vl-data-table--tight td {
 
 .cus-bullet-list {
   list-style: disc;
-  margin-left: 1rem;
+  margin-left: 1.8rem;
   margin-bottom: 1rem;
 }
 
 .cus-num-list {
   list-style: decimal;
-  margin-left: 1rem;
+  margin-left: 1.8rem;
   margin-bottom: 1rem;
   padding-left: 1rem;
   list-style-position: initial;
