@@ -131,3 +131,13 @@ mark.mark-highlight-manual {
 .cus-text-fade {
 	opacity: 0.6;
 }
+
+@media print {
+	.cus-container--table-of-contents {
+		display: none;
+	}
+
+	.cus-container--table-of-contents--small {
+		display: block;
+	}
+}
