@@ -125,7 +125,8 @@ em {
 }
 
 mark.mark-highlight-manual {
-	background-color: #E4E8EC;
+	border-bottom: 1px solid #E4E8EC;
+	background-color: transparent;
 }
 
 .cus-text-fade {
